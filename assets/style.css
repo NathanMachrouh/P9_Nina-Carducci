@@ -174,7 +174,6 @@ body {
 	color: #000;
 	background-color: #E5975F;
 	border-radius: 0;
-	cursor: pointer;
 }
 
 .nav-pills .nav-link {
@@ -201,6 +200,7 @@ body {
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
+	cursor: pointer;
 }
 
 .mg-prev,
@@ -465,5 +465,8 @@ input[type="submit"] {
 	.gallery-item {
 		width: 500px;
 		height: 400px;
+	}
+	.item-column {
+		margin-bottom: -90px !important;
 	}
 }
